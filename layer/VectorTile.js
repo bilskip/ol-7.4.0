@@ -17,7 +17,7 @@ import {assert} from '../asserts.js';
  */
 
 /**
- * @typedef {'hybrid' | 'vector'} VectorTileRenderType
+ * @typedef {'image' | 'hybrid' | 'vector'} VectorTileRenderType
  */
 
 /**

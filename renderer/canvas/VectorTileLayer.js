@@ -636,7 +636,8 @@ class CanvasVectorTileLayerRenderer extends CanvasTileLayerRenderer {
       this.getLayer()
     );
     if (layer.getRenderMode() === 'image') {
-      return this.container;
+      super.postRender(context, frameState);
+      return;
     }
     context = this.context;
     const alpha = context.globalAlpha;
